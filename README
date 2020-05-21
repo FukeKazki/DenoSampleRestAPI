@@ -1,5 +1,8 @@
 # deno-rest-api
-A simple rest API made with Deno
+Denoの練習で作成したRestAPIです.
+
+# 参考
+> https://dev.to/am77/deno-v1-0-303j  
 
 # run
 ```zsh
@@ -15,4 +18,3 @@ $ deno run --allow-net --allow-env app.ts
 | POST /books          | add a book               |
 | PUT /books/{isbn}    | update a book            |
 | DELETE /books/{isbn} | delete a book            |
-
